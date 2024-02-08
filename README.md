@@ -1,11 +1,11 @@
 # Portfolio Contact Form Email Handler
 
-This project contains a serverless AWS Lambda function that processes contact form submissions from a personal portfolio website and sends the information via email using AWS Simple Email Service (SES). The function is triggered by an HTTP request through AWS API Gateway.
+This project contains a serverless **AWS Lambda** function that processes contact form submissions from a personal portfolio website and sends the information via email using **AWS Simple Email Service (SES)**. The function is triggered by an HTTP request through **AWS API Gateway**.
 
 ## Prerequisites
 
 - AWS account
-- AWS CLI configured
+- [AWS CLI ]([](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)) configured 
 - An email address verified with AWS SES
 
 ## Setup and Deployment
