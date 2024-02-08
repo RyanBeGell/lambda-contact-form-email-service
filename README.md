@@ -5,7 +5,7 @@ This project contains a serverless **AWS Lambda** function that processes contac
 ## Prerequisites
 
 - AWS account
-- [AWS CLI ]([](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)) configured 
+- [AWS CLI ]([https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html]) configured 
 - An email address verified with AWS SES
 
 ## Setup and Deployment
