@@ -1,4 +1,5 @@
 const AWS = require('aws-sdk');
+const SES = new AWS.SES();
 
 exports.handler = async (event) => {
   const { firstName, lastName, email, subject, message } = JSON.parse(
@@ -32,7 +33,7 @@ exports.handler = async (event) => {
 
   try {
     //send email
-    await ses.sendEmail(emailParams).promise();
+    await SES.sendEmail(emailParams).promise();
     a;
     return {
       statusCode: 200,
