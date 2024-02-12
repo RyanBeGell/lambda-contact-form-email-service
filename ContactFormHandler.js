@@ -33,7 +33,7 @@ exports.handler = async (event) => {
 
   try {
     //send email
-    await SES.sendEmail(emailParams).promise();
+    await SES.sendEmail(params).promise();
     a;
     return {
       statusCode: 200,
