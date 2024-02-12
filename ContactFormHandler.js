@@ -20,12 +20,12 @@ exports.handler = async (event) => {
           firstName +
           ' ' +
           lastName +
-          ':' +
+          ': ' +
           subject,
       },
       Body: {
         Text: {
-          Data: ` First Name: ${firstName}\nLast Name: ${lastName}\nEmail Address: ${lastName}\n Subject: ${subject}\n Message: ${message}`,
+          Data: ` First Name: ${firstName}\nLast Name: ${lastName}\nEmail Address: ${email}\n\nSubject: ${subject}\n\nMessage: ${message}`,
         },
       },
     },
