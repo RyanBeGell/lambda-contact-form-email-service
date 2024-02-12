@@ -34,7 +34,6 @@ exports.handler = async (event) => {
   try {
     //send email
     await SES.sendEmail(params).promise();
-    a;
     return {
       statusCode: 200,
       body: JSON.stringify({ message: 'Email sent successfully' }),
@@ -43,7 +42,7 @@ exports.handler = async (event) => {
     console.error('Email sending failed:', error);
     return {
       statusCode: 500,
-      body: JSON.stringify({ message: 'Failed to send email' + error }),
+      body: JSON.stringify({ message: 'Failed to send email'/n + 'Error: ' +  error }),
     };
   }
 };
